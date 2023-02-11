@@ -1,10 +1,10 @@
-package com.example.events.controller;
+package com.example.softwareengineering.controller;
 
 
 import com.example.events.service.UserService;
+import com.example.softwareengineering.pojo.Event;
+import com.example.softwareengineering.pojo.User;
 import org.springframework.web.bind.annotation.*;
-import com.example.events.pojo.Event;
-import com.example.events.pojo.User;
 
 import java.util.List;
 

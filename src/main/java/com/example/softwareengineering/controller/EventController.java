@@ -1,11 +1,10 @@
-package com.example.events.controller;
+package com.example.softwareengineering.controller;
 
 
+import com.example.softwareengineering.pojo.Event;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
-import com.example.events.pojo.Event;
-import com.example.events.service.EventService;
 
 import java.time.LocalDateTime;
 import java.util.List;

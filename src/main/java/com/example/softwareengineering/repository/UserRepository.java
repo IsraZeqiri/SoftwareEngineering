@@ -1,8 +1,10 @@
-package com.example.events.repository;
+package com.example.softwareengineering.repository;
 
+
+import com.example.softwareengineering.pojo.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import com.example.events.pojo.User;
+
 
 import java.util.Optional;
 
